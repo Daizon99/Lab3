@@ -46,13 +46,17 @@ isEndOfMonth() avait trois branches manquantes et une instruction. La seule bran
 ![image](https://github.com/Daizon99/Lab3/assets/114030630/f889ba93-94f1-4b4f-8fdd-ca56b217043b)
 
 La branche manquante a été couverte par le cas de test suivant :
+
 ![image](https://github.com/Daizon99/Lab3/assets/114030630/106cf77b-64fc-4eec-8c0f-5ab5d3b15b54)
 
 #### isThirtyDayMonth()
+
 ![image](https://github.com/Daizon99/Lab3/assets/114030630/6087af56-80a9-4abc-a9d4-65d2e924bd64)
+
 Cette méthode a été entièrement couverte après l'ajout de cas de test pour isEndOfMonth().
 
 #### setMonth(int)
+
 ![image](https://github.com/Daizon99/Lab3/assets/114030630/1ee5ec67-cf95-4329-95cc-3b6263b2338e)
 
 Pour SetMonth la branche manquante a été couverte par :
