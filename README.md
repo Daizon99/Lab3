@@ -112,7 +112,7 @@ APRÈS
 
 ![image](https://github.com/Daizon99/Lab3/assets/114030630/33cc3afb-ce5b-4d16-b224-4046e120b5c9)
 
-####Resultats
+#### Resultats
 Si nous devions conserver les tests unitaires ajoutés dans la première partie, les taux de couverture seraient les mêmes après  refactoring, comme prévu.
 
 ![image](https://github.com/Daizon99/Lab3/assets/114030630/a40a031e-e360-472b-8cef-3011e9820d3d)
