@@ -31,12 +31,15 @@ toString() n'a pas de branches (if/switch statements). Il suffit donc d'ajouter 
 ![image](https://github.com/Daizon99/Lab3/assets/114030630/992436fd-176d-402e-8590-acc007c26e25)
 
 equals(Object) comporte quatre branches manquantes et une instruction au total. Notre tâche consistait à déterminer celles qui n'étaient pas couvertes par les cas de test déjà mis en œuvre :
+
 ![image](https://github.com/Daizon99/Lab3/assets/114030630/5e951a10-f5b2-4f43-b12a-436be0746e98)
 
 #### isEndOfMonth()
+
 ![image](https://github.com/Daizon99/Lab3/assets/114030630/f4c367e4-3f93-44aa-98f3-61a4d5dd08ef)
 
 isEndOfMonth() avait trois branches manquantes et une instruction. La seule branche qu'on a  pas pu couvrir est le cas où l'année n'est pas bissextile, le mois est février, et le jour est supérieur à 28 (Ex. : 2015/02/29). Ce qui est tout à fait logique puisqu'une telle date n'est pas valide, càd qu'une exception d'argument illégal sera levée par le constructeur.
+
 ![image](https://github.com/Daizon99/Lab3/assets/114030630/f5641bb4-e145-495c-8d03-07391e5195ad)
 
 #### isLeapYear()
