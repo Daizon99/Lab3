@@ -60,10 +60,12 @@ Cette méthode a été entièrement couverte après l'ajout de cas de test pour 
 ![image](https://github.com/Daizon99/Lab3/assets/114030630/1ee5ec67-cf95-4329-95cc-3b6263b2338e)
 
 Pour SetMonth la branche manquante a été couverte par :
+
 ![image](https://github.com/Daizon99/Lab3/assets/114030630/0d9804fa-f90d-4a97-a5f2-f0de4d4e5f8d)
 
 #### Conclusion
 Après avoir ajouté tous les cas de test précédents, le rapport JaCoCo généré était le suivant :
+
 ![image](https://github.com/Daizon99/Lab3/assets/114030630/8479b87f-ad7f-4fa5-b201-6e97411f8d40)
 
 
