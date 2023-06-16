@@ -68,6 +68,67 @@ Après avoir ajouté tous les cas de test précédents, le rapport JaCoCo géné
 
 ![image](https://github.com/Daizon99/Lab3/assets/114030630/8479b87f-ad7f-4fa5-b201-6e97411f8d40)
 
+## Part 2:
+
+#### Changements apportés à Date.java
+
+#### setDay(int)
+
+AVANT
+
+![image](https://github.com/Daizon99/Lab3/assets/114030630/03b1f95f-8717-4388-8952-aa0a69018197)
+
+APRÈS
+
+![image](https://github.com/Daizon99/Lab3/assets/114030630/ab00c759-0965-4d87-a6ba-9b66f40974bb)
+
+#### isEndOfMonth()
+
+AVANT
+
+![image](https://github.com/Daizon99/Lab3/assets/114030630/9e39baea-f039-4615-9b10-1a1c4bfa8a93)
+
+APRÈS
+
+![image](https://github.com/Daizon99/Lab3/assets/114030630/8553d077-5ea7-4703-a0d8-9a8a7e767350)
+
+#### isThirtyDayMonth()
+
+AVANT
+
+![image](https://github.com/Daizon99/Lab3/assets/114030630/4a3785fe-7fd1-45f4-bc8e-86c1904bbce6)
+
+APRÈS
+
+![image](https://github.com/Daizon99/Lab3/assets/114030630/d32e81da-a74e-4e75-871d-ab270e2c11bb)
+
+#### isLeapYear()
+
+AVANT
+
+![image](https://github.com/Daizon99/Lab3/assets/114030630/21850dfe-dda2-49c6-8bdc-b50473396a91)
+
+APRÈS
+
+![image](https://github.com/Daizon99/Lab3/assets/114030630/33cc3afb-ce5b-4d16-b224-4046e120b5c9)
+
+####Resultats
+Si nous devions conserver les tests unitaires ajoutés dans la première partie, les taux de couverture seraient les mêmes après  refactoring, comme prévu.
+
+![image](https://github.com/Daizon99/Lab3/assets/114030630/a40a031e-e360-472b-8cef-3011e9820d3d)
+
+En fait, l'écrasement des instructions (if/switch) ou d'autres opérations similaires n'augmentera en aucun cas le taux de couverture des branches. Cependant, cela pourrait contribuer à réduire le nombre d'instructions manquées. Cela peut être observé si on supprime les tests ajoutés dans la partie 1.
+
+![image](https://github.com/Daizon99/Lab3/assets/114030630/4e2fd3b4-4709-488b-a515-053e4c0a0d30)
+
+En conclusion,  refactoring peut aider à réduire le nombre d'instructions sans affecter les branches. Il est intuitif de refactoriser correctement la logique avant de la tester.
+
+
+
+
+
+
+
 
 
 
