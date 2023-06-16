@@ -14,3 +14,9 @@ Le rapport suivant apparaîtera pour Date.java
 
 Notre objectif pour la première partie était d'atteindre une couverture de 100% pour les instructions et les branches de Date.java.
 
+#### setDay(int)
+![image](https://github.com/Daizon99/Lab3/assets/114030630/e7d6eaba-6fa7-4e4c-91a8-12b1ab25f0d9)
+
+On a pu couvrir toutes les branches et instructions manquantes en ajoutant les cas de test suivants à DateTest.java :
+![image](https://github.com/Daizon99/Lab3/assets/114030630/71bd1e96-12d0-4186-bfca-721f428afa0a)
+
